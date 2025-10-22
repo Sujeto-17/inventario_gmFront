@@ -16,7 +16,7 @@ export class AgregarProducto {
   private productoServicio = inject(ProductoServicio);
   private enrutador = inject(Router);
 
-  onSumit(){
+  onSubmit(){
     this.guardarProducto();
   }
 
